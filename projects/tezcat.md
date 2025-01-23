@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: /img/projectszhang/TEZCATSQUARE.png
+image: img/projectszhang/TEZCATSQUARE.png
 title: "Tezcat"
 date: 2024
 published: true
