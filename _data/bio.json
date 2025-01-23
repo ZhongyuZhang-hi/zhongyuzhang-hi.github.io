@@ -44,13 +44,16 @@
   ],
   "work": [
     {
-      "company": "",
-      "position": "",
-      "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "company": "US Army",
+      "position": "Soldier",
+      "website": "army.mil",
+      "startDate": "2022-08-14",
+      "endDate": "Present",
+      "summary": "Performed a wide range of duties supporting military operations and missions, including maintaining equipment, executing drills, and supporting tactical exercises.",
       "highlights": [
+          "Qualifications for HAZMAT Ops",
+          "Qualifications for M4A1 and M17",
+          "Physical fitness and discipline"
       ]
     },
   ],
