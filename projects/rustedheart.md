@@ -12,7 +12,7 @@ labels:
 summary: "A Rhythm game with RPG like elements and story."
 ---
 
-<img class="img-fluid" src="../img/projectszhang/RustedHeartFULL.png" style="height: 200px; width: 200px;">
+<img class="img-fluid" src="../img/projectszhang/RustedHeartFULL.png">
 
 Rusted Heart is a Unity-based game developed collaboratively by the Gamedev Club at the University of Hawaiʻi at Mānoa. The game tells the story of a robot who embarks on an adventure to save their sister, whose heart is failing. Players engage in exciting rhythm-based combat mechanics while exploring an immersive world. The game combines exploration, emotional storytelling, and rhythm-based combat mechanics to create a unique and immersive gameplay experience. With dialogue and combat options with each of the enemy side characters to befriend or take what you from them by force, which will have consequences later down the line.
 
