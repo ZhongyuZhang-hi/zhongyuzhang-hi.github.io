@@ -1,6 +1,7 @@
 ---
 layout: project
 type: project
+image: img/projectszhang/RustedHeartSQUARE.png
 title: "Rusted Heart"
 date: 2024
 published: true
