@@ -12,7 +12,7 @@ labels:
 summary: "A 2D Platformer where you can change your size."
 ---
 
-<img class="img-fluid" src="../img/projectszhang/SHRINKYULL.png">
+<img class="img-fluid" src="../img/projectszhang/SHRINKYULL.png" style="height: 200px; width: 200px;">
 
 Shrinky the clown is a 2D platformer where you control Shrinky, a clown doll who was granted life, and your goal is to get to the circus performance in time while gathering all the needed props. Shrinky has a unique ability to change in size and turn back into a doll, where depending on his state, he has unique enemies and obstacles that he would have to deal with. The project was quickly made collaboratively within a week for a Game Jam. The game blends classic platforming elements with innovative mechanics and vibrant visuals to create a short, fun, and challenging experience for all players.
 
