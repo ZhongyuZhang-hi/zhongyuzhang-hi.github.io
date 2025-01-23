@@ -11,8 +11,7 @@
     "profiles": [
       { "network": "github", "username": "ZhongyuZhang-hi", "url": "http://github.com/ZhongyuZhang-hi" },
       { "network": "linkedin", "username": "Zhongyu Zhang", "url": "https://www.linkedin.com/in/zhongyu-zhang-0091a5345/" },
-      { "network": "twitter", "username": "", "url": "" },
-      { "network": "instagram", "username": "", "url": "" }
+      { "network": "instagram", "username": "Zhong Yu Zhang", "url": "https://www.instagram.com/zhongggers/" }
     ]
   },
   "interests": [
