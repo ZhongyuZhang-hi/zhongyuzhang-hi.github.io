@@ -9,7 +9,7 @@ labels:
   - Unity
   - C#
   - GitHub
-summary: "A Rhythm game with RPG like elements are story."
+summary: "A Rhythm game with RPG like elements and story."
 ---
 
 <img class="img-fluid" src="../img/projectszhang/RustedHeartFULL.png">
