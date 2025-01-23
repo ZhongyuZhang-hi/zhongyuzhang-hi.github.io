@@ -12,7 +12,7 @@ labels:
 summary: "A Short Dungeon crawler game where you try to explore and take treasures from each procedurally generated floor while evading enemies."
 ---
 
-<img class="img-fluid" src="../img/projectszhang/TEZCATFULL.png" style="height: 200px; width: 200px;">
+<img class="img-fluid" src="../img/projectszhang/TEZCATFULL.png" >
 
 
 Tezcat is a short dungeon crawler game that challenges players to navigate procedurally generated floors in search of treasures while avoiding enemies. Each playthrough offers a unique experience as the procedurally generated levels ensure that no two runs are the same. The game’s fast-paced mechanics and unpredictable layouts keep players on their toes and also tests the player's daringness, they can steal more treasures, but that, as a result, makes them slower and the enemies harder to evade. The core gameplay revolves around exploration and risk management. Players must decide whether to delve deeper into the dungeon for greater rewards or play it safe to avoid the increasing dangers lurking on each floor.
