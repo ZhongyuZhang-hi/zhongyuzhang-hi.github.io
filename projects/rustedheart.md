@@ -1,17 +1,17 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
-title: "Cotton"
-date: 2014
+image: img/projectszhang/RustedHeartSQUARE.png
+title: "Rusted Heart"
+date: 2024
 published: true
 labels:
-  - Lisp
+  - Unity
   - GitHub
-summary: "A text adventure game that I developed for ICS 313."
+summary: "A Rhythm game with RPG like elements are story."
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<img class="img-fluid" src="../img/projectszhang/RustedHeartFULL.png">
 
 Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
 
