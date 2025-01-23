@@ -1,6 +1,7 @@
 ---
 layout: project
 type: project
+image: img/projectszhang/SHRINKYSQUARE.png
 title: "Shrinky The Clown"
 date: 2024
 published: true
