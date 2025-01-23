@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/projectszhang/SHRINKYSQUARE.png
 title: "Shrinky The Clown"
-date: 2023
+date: 2024
 published: true
 labels:
   - Unity
@@ -14,12 +14,12 @@ summary: "A 2D Platformer where you can change your size."
 
 <img class="img-fluid" src="../img/projectszhang/SHRINKYULL.png">
 
-Rusted Heart is a Unity-based game developed collaboratively by the Gamedev Club at the University of Hawaiʻi at Mānoa. The game tells the story of a robot who embarks on an adventure to save their sister, whose heart is failing. Players engage in exciting rhythm-based combat mechanics while exploring an immersive world. The game combines exploration, emotional storytelling, and rhythm-based combat mechanics to create a unique and immersive gameplay experience. With dialogue and combat options with each of the enemy side characters to befriend or take what you from them by force, which will have consequences later down the line.
+Shrinky the clown is a 2D platformer where you control Shrinky, a clown doll who was granted life, and your goal is to get to the circus performance in time while gathering all the needed props. Shrinky has a unique ability to change in size and turn back into a doll, where depending on his state, he has unique enemies and obstacles that he would have to deal with. The project was quickly made collaboratively within a week for a Game Jam. The game blends classic platforming elements with innovative mechanics and vibrant visuals to create a short, fun, and challenging experience for all players.
 
-I was responsible for implementing the map and dialogue systems in the game. The maps guided the player's movements, while the dialogue system facilitated story progression and character interactions. By designing these components, I ensured that the gameplay and player interactions felt engaging, supporting the overall narrative of the game. I implemented a branching dialogue system with functions to trigger options and events, reusable without changing the script's source code, by using different arguments for dialogue and event triggers. This system was essential to reinforcing both the game's mechanics and narrative.
+My primary contribution to Shrinky the Clown was implementing the game’s enemies, particularly the spider. I designed and programmed the behavior of this enemy, ensuring that spiders only appeared when Shrinky was in his smaller doll form. This added a layer of strategy to the gameplay, as players needed to consider the risks of using Shrinky’s unique abilities. I also worked on integrating these enemies into the game’s levels, which required close collaboration with team members to align with stage design and game mechanics.
 
-This project taught me valuable lessons in collaboration and technical implementation. I deepened my understanding of Unity's tools, including collisions, different types of hitboxes for different interactions, UI systems, as well as designing reusable scripts. Additionally, I enhanced my ability to communicate and work as part of a team, aligning and collaborating with other members to create one cohesive project.
+Shrinky the Clown was my first project with the UH Mānoa Gamedev Club, and it served as a foundational learning experience. I gained hands-on experience with Unity, including scripting, attaching scripts to objects, assigning prefabs, and moving objects within the game world. This project also taught me the importance of designing mechanics that interact seamlessly with gameplay elements. Implementing the spider enemy helped me understand the balance between challenge and fairness, as I worked to create an engaging experience for players.
 
 <hr>
 
-Link to the Game: <a href="https://uhmanoagamedev.itch.io/rusted-heart"><i class="large github icon "></i>Rusted-Heart</a>
+Link to the Game: <a href="https://uhmanoagamedev.itch.io/shrinky-the-clown"><i class="large github icon "></i>Shrinky-the-Clown</a>
