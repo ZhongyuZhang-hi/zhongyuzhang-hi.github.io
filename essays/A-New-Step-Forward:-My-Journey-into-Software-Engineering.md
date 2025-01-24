@@ -10,10 +10,11 @@ labels:
 ---
 <img src="../img/essays/softwarestockimage.jpg">
 
+*"Knowledge without application is like a book that is never read."* – Christopher Crawford
 
 ## Why I’m Excited About Software Engineering
 
-Exploring unknown areas of knowledge has always been exciting to me. Software engineering captivates me because it combines the logic of problem-solving with the creativity of developing tools that have real-life applications. Before learning about software engineering, I only understood how to develop algorithms to solve specific problems or puzzles. While I could offer a solution to a problem, I didn’t know how to translate that into functional, coherent software that could be used by others. I am ready to learn the foundational skills necessary to start bridging that gap, and I’m excited to apply those skills in more meaningful and impactful ways.
+Exploring unknown areas of knowledge has always been exciting to me. I am interested in software engineering because it combines the logic of problem-solving with the creativity of developing tools that have real-life applications. Before learning about software engineering, I only understood how to develop algorithms to solve specific problems or puzzles. While I could offer a solution to a problem, I didn’t know how to translate that into functional, coherent software that could be used by others. I am ready to learn the foundational skills necessary to start bridging that gap, and I’m excited to apply those skills in more meaningful and impactful ways.
 
 ## Experiences I Want to gain and Develop
 
