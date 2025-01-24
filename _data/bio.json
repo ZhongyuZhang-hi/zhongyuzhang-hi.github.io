@@ -15,9 +15,9 @@
     ]
   },
   "interests": [
-    { "name": "Game Development" },
-    { "name": "Artificial Intelligence" },
-    { "name": "Software Development" }
+    { "name": "Game Development"},
+    { "name": "Artificial Intelligence"},
+    { "name": "Software Development"}
 
   ],
   "skills": [
