@@ -25,6 +25,6 @@ I am particularly excited to gain experience that will be useful in game develop
 
 In conclusion, I’m eager to continue learning and growing as a software engineer, with a particular focus on game development. I’m excited by the opportunities to hone my technical skills, collaborate effectively in teams, and develop immersive systems that seamlessly blend logic and creativity. Software engineering isn’t just about solving problems; it’s about crafting tools and experiences that can leave a lasting impact. By continuing to explore new areas of knowledge and challenging myself through collaborative projects, I hope to build a career that is both fulfilling and impactful.
 
-- ChatGPT is used to assist in writing this essay in areas such as word choice, spelling and grammar, as well as structuring.
+- ChatGPT is used to assist in writing this essay only in, word choice, spelling, and grammar.
 
 
