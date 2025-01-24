@@ -23,3 +23,4 @@ This project taught me valuable lessons in collaboration and technical implement
 <hr>
 
 Link to the Game: <a href="https://uhmanoagamedev.itch.io/rusted-heart"><i class="large github icon "></i>Rusted-Heart</a>
+If you're interested in the source code of this game, please reach out to me over phone or email.
