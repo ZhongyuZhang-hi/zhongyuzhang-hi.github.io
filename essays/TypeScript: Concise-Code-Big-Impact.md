@@ -8,7 +8,7 @@ labels:
   - Software Engineering
   - Typescripts
 ---
-<img src="../img/essays/Typescript_logo.png">
+<img src="../img/essays/Typescript_logo.png" width = 200px>
 
 # A New Experience
 I was just introduced to typescripts over the last week. One unique thing I’ve noticed is its flexibility, such as with allowing multiple return types. This stands out when compared to languages I’ve worked with before like Java and C. However, I do feel a bit overwhelmed by the sheer amount of content and scripting options. The flexibility in TypeScript is exciting, but I’m still adapting, especially with how typescripts basic data type and how typescripts declare and modify arrays. I find myself having a hard time comprehending new materials and concepts while still struggling with those simple things. However, I am confident that I’ll adapt and understand with more experience and application.
