@@ -8,7 +8,7 @@ published: true
 labels:
   - Software Engineering
 ---
-<img src="../img/difficulty/degree_difficulty.jpg">
+<img src="../img/essays/softwarestockimage.jpg">
 
 
 ## Why I’m Excited About Software Engineering
