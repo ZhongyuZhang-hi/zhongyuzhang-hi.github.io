@@ -19,7 +19,7 @@ A smart question is the most effective way to gain knowledge about something tha
 
 ## Example 1: The Smart Question
 
-An example of a smart question is titled, [Why is subtracting these two epoch-milli Times (in year 1927) giving a strange result?](https://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-epoch-milli-times-in-year-1927-giving-a-strange-r) </a>
+An example of a smart question is titled, [Why is subtracting these two epoch-milli Times (in year 1927) giving a strange result?](https://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-epoch-milli-times-in-year-1927-giving-a-strange-r) 
 The user presents a concise yet descriptive title that immediately captures the essence of the issue. Giving many details such as the test case "1927-12-31 23:54;08" - “1927-12-31 23:54;07", with an expected output of “1”, and the actual output “353”. And how shifting the time 1 second forward would give the expected time normally. Along with the most important code snippets that influences the calculation and result.
 
 ```
@@ -40,7 +40,7 @@ Responses to this question were insightful, revealing that the discrepancy was d
 
 ## The “Dumb” Question
 
-In contrast, the question titled “Not Returning the Right Value” reflects the problems of poorly asked questions. The post simply states that the output of the returnGpa function is always 0.0. In the question, the title is vague, it lacks meaningful details or any description of the problem. Such as why, what function is expected to set the Gpa, did anything go wrong with that? The user simply passed the whole program into the post and stated it wasn’t working, and that supposedly “everything else works”. It does not demonstrate any attempts of the developer trying to debug the problem on their own, but just simply asking for answers when running into a problem.
+In contrast, the question titled [“Not Returning the Right Value”](https://stackoverflow.com/questions/26141822/not-returning-the-correct-value) reflects the problems of poorly asked questions. The post simply states that the output of the returnGpa function is always 0.0. In the question, the title is vague, it lacks meaningful details or any description of the problem. Such as why, what function is expected to set the Gpa, did anything go wrong with that? The user simply passed the whole program into the post and stated it wasn’t working, and that supposedly “everything else works”. It does not demonstrate any attempts of the developer trying to debug the problem on their own, but just simply asking for answers when running into a problem.
 
 The problem itself also, was extremely simple. And thankfully, a user helped and pointed out that the setGpa function doesn’t save the gpa to any instance variables in the object. So returning the Gpa would always return the default value of 0. Which could have been easily found with a tiny bit of debugging, one of the key points to a smart question, giving test cases that reflect the problem, and trying to find the root of the problem.
 
