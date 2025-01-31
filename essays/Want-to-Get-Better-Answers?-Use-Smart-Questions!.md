@@ -19,7 +19,7 @@ A smart question is the most effective way to gain knowledge about something tha
 
 ## Example 1: The Smart Question
 
-An example of a smart question is titled, <a href="[https://uhmanoagamedev.itch.io/rusted-heart](https://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-epoch-milli-times-in-year-1927-giving-a-strange-r)"><i class="large github icon "></i>"Why is subtracting these two epoch-milli Times (in year 1927) giving a strange result?" </a>
+An example of a smart question is titled, [Why is subtracting these two epoch-milli Times (in year 1927) giving a strange result?](https://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-epoch-milli-times-in-year-1927-giving-a-strange-r) </a>
 The user presents a concise yet descriptive title that immediately captures the essence of the issue. Giving many details such as the test case "1927-12-31 23:54;08" - “1927-12-31 23:54;07", with an expected output of “1”, and the actual output “353”. And how shifting the time 1 second forward would give the expected time normally. Along with the most important code snippets that influences the calculation and result.
 
 ```
