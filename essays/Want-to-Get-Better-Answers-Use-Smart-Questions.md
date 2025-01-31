@@ -9,7 +9,7 @@ labels:
   - Stack Overflow
   - Smart Questions
 ---
-<img src="../img/essays/softwarestockimage.jpg">
+<img src="../img/essays/DogQuestion.jpg">
 
 *"A prudent question is one-half of wisdom."* – Francis Bacon
 
