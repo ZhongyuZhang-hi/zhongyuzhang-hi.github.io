@@ -44,6 +44,11 @@ In contrast, the question titled [“Not Returning the Right Value”](https://s
 
 The problem itself also, was extremely simple. And thankfully, a user helped and pointed out that the setGpa function doesn’t save the gpa to any instance variables in the object. So returning the Gpa would always return the default value of 0. Which could have been easily found with a tiny bit of debugging, one of the key points to a smart question, giving test cases that reflect the problem, and trying to find the root of the problem.
 
+## Comparison
+
+The key difference between a smart and a dumb question lies in the information it conveys. A smart question includes key details like sample code, test cases, and uses those test cases to form a clear, focused question. For example: *"Why is there a 353-second difference when changing just one second?"* In contrast, a dumb question simply asks why something isn’t working, without providing much context or detail. Worst of all, it shows a lack of effort from the poster; they haven’t tried to solve the problem themselves, let alone identify its potential cause. A smart question is crafted thoughtfully, and even if the solution is simple, solving it still provides a valuable learning experience for the poster.
+
+
 ## Reflection
 
 Through these examples, it is clear that smart questions, characterized by specifically, clarity, and a reflection of effort and willingness to learn that came from the poster, encourage more valuable discussions and lead to efficient solutions. While poorly framed questions usually have no value, reflecting the poster’s lack of effort, and resulting in minimal engagement. By framing our questions smartly, we not only solve our own problems, but also create enticing conversations and exchangement of knowledge. We learn more if we really know what we are asking, and what we are asking for.
