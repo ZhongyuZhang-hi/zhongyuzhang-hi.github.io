@@ -10,7 +10,7 @@ labels:
   - Coding
   - Eslint
 ---
-<img src="../img/essays/DogQuestion.jpg">
+<img src="../img/essays/CodingStandard.jpg">
 
 *"Programming is the art of telling another human being what one wants the computer to do."* ― Donald Ervin Knuth
 
