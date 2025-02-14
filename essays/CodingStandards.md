@@ -16,44 +16,50 @@ labels:
 
 ## Why are Coding Standards Important
 
-Code aren't just instructions to be read by computers, moreover, they are also meant to be read by humans. Coding standards are one of the 
+Code aren't just instructions to be read by computers, moreover, they are also meant to be read by humans. Coding standards are important because of that concept. Writing clean, structured, and standardized code ensures that it is not only functional but also readable, maintainable, and scalable. In collaborative projects, coding standards are important for developers, including your future self, to be able to understand, modify, and build off the code. This improves teamwork, reduces errors, and ensures long-term efficiency in software development.
 
-## Good vs Bad Coding Standards
+## Good vs Bad Code
 
-An example of a smart question is titled, [Why is subtracting these two epoch-milli Times (in year 1927) giving a strange result?](https://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-epoch-milli-times-in-year-1927-giving-a-strange-r) 
-The user presents a concise yet descriptive title that immediately captures the essence of the issue. Giving many details such as the test case "1927-12-31 23:54;08" - “1927-12-31 23:54;07", with an expected output of “1”, and the actual output “353”. And how shifting the time 1 second forward would give the expected time normally. Along with the most important code snippets that influences the calculation and result.
+The difference between good and bad code is more than just how a program runs, sure you can have more efficient algorithmns, but have clean and well written code is what a project could really build on.
 
+## Examples
+
+First, lets look at this program.
 ```
-Timezone(`TimeZone.getDefault()`):
-
-sun.util.calendar.ZoneInfo[id="Asia/Shanghai",
-offset=28800000,dstSavings=0,
-useDaylight=false,
-transitions=19,
-lastRule=null]
-
-Locale(Locale.getDefault()): zh_CN
-
+function f(n){
+  if(n<0) return "error"
+  if(n==0)return 1
+  else return n*f(n-1)}
 ```
 
-This gives people analyzing the problem a clue to what has gone wrong and could instantly filter out many things like the Parse was incorrect or the date time was not formatted correctly. Pointing out the problem instantly that, despite looking like these two datetimes are only 1 second off, the calculations instead return 353.
-Responses to this question were insightful, revealing that the discrepancy was due to historical time zone adjustments. In 1927, Shanghai's local time changed by 5 minutes and 52 seconds, accounting for the surprising result. This question was quickly answered and revealed a lot of knowledge about both the way Java computes time and historical anomalies.
+This program violates multiple coding standards, making it difficult to read, understand, and maintain. It has poor and unclear naming standards for both functions and error types. The function name provides no indication of what the program does. While developers may still recognize its purpose in a simple program, poor naming conventions become a major issue in larger, more complex projects, where readability and maintainability are crucial.
 
-## The “Dumb” Question
+Additionally, just returning "error" is an inadequate approach to handling invalid input. A well-structured error-handling approach should be consistent, informative, and attention-grabbing, making it easier to identify and debug issues quickly. Providing meaningful error messages or implementing proper exception handling ensures that problems can be efficiently diagnosed and resolved.
 
-In contrast, the question titled [“Not Returning the Right Value”](https://stackoverflow.com/questions/26141822/not-returning-the-correct-value) reflects the problems of poorly asked questions. The post simply states that the output of the returnGpa function is always 0.0. In the question, the title is vague, it lacks meaningful details or any description of the problem. Such as why, what function is expected to set the Gpa, did anything go wrong with that? The user simply passed the whole program into the post and stated it wasn’t working, and that supposedly “everything else works”. It does not demonstrate any attempts of the developer trying to debug the problem on their own, but just simply asking for answers when running into a problem.
+## Example Continued
 
-The problem itself also, was extremely simple. And thankfully, a user helped and pointed out that the setGpa function doesn’t save the gpa to any instance variables in the object. So returning the Gpa would always return the default value of 0. Which could have been easily found with a tiny bit of debugging, one of the key points to a smart question, giving test cases that reflect the problem, and trying to find the root of the problem.
+This following program is the above program that addresses some of these problems.
 
-## Comparison
+```
+function factorial(n: number): number {
+    if (n < 0) {
+        throw new Error(
+            "ERROR:
+            Invalid input for function factorial()
+            Factorial is not defined for negative numbers.");
+    }
+    if (n === 0 || n === 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
+```
 
-The key difference between a smart and a dumb question lies in the information it conveys. A smart question includes key details like sample code, test cases, and uses those test cases to form a clear, focused question. For example: *"Why is there a 353-second difference when changing just one second?"* In contrast, a dumb question simply asks why something isn’t working, without providing much context or detail. Worst of all, it shows a lack of effort from the poster; they haven’t tried to solve the problem themselves, let alone identify its potential cause. A smart question is crafted thoughtfully, and even if the solution is simple, solving it still provides a valuable learning experience for the poster.
+This improved version follows clean coding principles, making it more readable, maintainable, and scalable. The function's name, factorial, clearly describes the purpose of the function. It also includes clear error handling, as well as giving types to its inputs and outputs. Most importantly, the code is constructed to be structured, clear, and easily readable. Following these practices consistently allows functions to be easily understood and integrated, ensuring long term efficiency.
 
+## Conclusion
 
-## Reflection
-
-Through these examples, it is clear that smart questions, characterized by specifically, clarity, and a reflection of effort and willingness to learn that came from the poster, encourage more valuable discussions and lead to efficient solutions. While poorly framed questions usually have no value, reflecting the poster’s lack of effort, and resulting in minimal engagement. By framing our questions smartly, we not only solve our own problems, but also create enticing conversations and exchangement of knowledge. We learn more if we really know what we are asking, and what we are asking for.
-
+Well written code follows clean coding principles and remains consistent with them. If you do something once make sure it remains consistent with the entirety of your code. During my current programming course, we reinforce this consistency using a program called Eslint, it is automated to be able to point out not only errors, but also mark improper coding practices that is able to be toggled on and off for many options, like including new lines and which quotation marks to use. It is very useful at keeping consistency between all of your developers by simply using an uniform setting. Adhering to these standards and following it uniformly allows projects to be built using sustainable and scalable code.
 
 - ChatGPT is used to assist in writing this essay only in word choice, spelling, and grammar.
 
