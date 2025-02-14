@@ -61,6 +61,6 @@ This improved version follows clean coding principles, making it more readable, 
 
 Well written code follows clean coding principles and remains consistent with them. If you do something once make sure it remains consistent with the entirety of your code. During my current programming course, we reinforce this consistency using a program called Eslint, it is automated to be able to point out not only errors, but also mark improper coding practices that is able to be toggled on and off for many options, like including new lines and which quotation marks to use. It is very useful at keeping consistency between all of your developers by simply using an uniform setting. Adhering to these standards and following it uniformly allows projects to be built using sustainable and scalable code.
 
-- ChatGPT is used to assist in writing this essay only in word choice, spelling, and grammar.
+- ChatGPT is used to assist in writing this essay only in word choice, spelling, and grammar. As well as assistance in writing the code snippets.
 
 
