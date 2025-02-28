@@ -11,10 +11,12 @@ labels:
   - Html
   - BootStrap
 ---
-<img src="../img/essays/CodingStandard.jpg">
 
 ## Introduction
 My first time using Bootstrap was to basically reimplement one of my previous tutorial webpages, using simple classes like navbar, rows, and columns without much customization. On the left is my original page using traditional CSS, while the other is made using only Bootstrap.
+
+<img src="../img/essays/htmlcss.png">
+<img src="../img/essays/htmlboot.g">
 
 At a first glance, these pages aren't that different, but as I looked more... Well, they still aren't so different. My initial experience is that I found them more troublesome than helpful. Right that first webpage, I asked myself, what is the point of learning all these classes and functions when they could all be achieved in css anyways? But my opinions and views soon changed after developing more pages using Bootstrap.
 
