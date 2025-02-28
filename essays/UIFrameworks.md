@@ -17,10 +17,10 @@ My first time using Bootstrap was to basically reimplement one of my previous tu
 
 <div class="row">
   <div class="col-md-6">
-    <img src="../img/essays/htmlcss.png" class="img-fluid">
+    <img src="../img/essays/htmlcss.png" class="img-fluid" width="300px">
   </div>
   <div class="col-md-6">
-    <img src="../img/essays/htmlboot.png" class="img-fluid">
+    <img src="../img/essays/htmlboot.png" class="img-fluid" width="300px">
   </div>
 </div>
 
