@@ -1,15 +1,16 @@
 ---
 layout: essay
 type: essay
-title: "UI Frameworks: A Foundational Tool"
+title: "ManoaConnect Milestone 1 Effort Estimation"
 # All dates must be YYYY-MM-DD format!
-date: 2025-01-30
-published: true
+date: 2025-04-15
+published: false
 labels:
   - Programming
   - Coding
-  - Html
-  - BootStrap
+  - Collaboration
+  - Nextjs
+  - Projects
 ---
 
 ## Introduction
