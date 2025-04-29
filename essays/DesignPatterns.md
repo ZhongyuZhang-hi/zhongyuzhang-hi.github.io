@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "The Interchangeable Parts of Software Design"
+title: "Design Patterns: Interchangeable Parts of Programming"
 # All dates must be YYYY-MM-DD format!
 date: 2025-04-22
 published: true
@@ -10,7 +10,7 @@ labels:
   - Coding
   - Design
 ---
-<img src="../img/essays/CodingStandard.jpg">
+<img src="../img/essays/puzzle.jpg">
 
 *"Don't write a new program if one already does more or less what you want."* ― Richard Hill
 
