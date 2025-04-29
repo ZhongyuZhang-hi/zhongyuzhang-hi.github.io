@@ -12,7 +12,7 @@ labels:
 ---
 <img src="../img/essays/CodingStandard.jpg">
 
-*"Programming is the art of telling another human being what one wants the computer to do."* ― Donald Ervin Knuth
+*"Don't write a new program if one already does more or less what you want."* ― Richard Hill
 
 The Factory Floor of Code
 Imagine walking into a bustling factory in the early 20th century. Workers assemble machines not by handcrafting every bolt and gear, but by slotting in standardized, interchangeable parts. A piston from one engine fits perfectly into another. A gear from a textile machine can be repurposed for a locomotive. This revolution in manufacturing didn’t just speed up production—it made systems more reliable, maintainable, and scalable.
