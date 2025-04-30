@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Design Patterns: Interchangeable Parts of Programming"
 # All dates must be YYYY-MM-DD format!
-date: 2025-04-22
+date: 2025-04-24
 published: true
 labels:
   - Programming
