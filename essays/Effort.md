@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Design Patterns: Interchangeable Parts of Programming"
+title: "Effort Estimation"
 # All dates must be YYYY-MM-DD format!
 date: 2025-04-24
 published: true
