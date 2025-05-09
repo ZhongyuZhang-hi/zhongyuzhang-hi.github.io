@@ -3,12 +3,12 @@ layout: essay
 type: essay
 title: "Effort Estimation"
 # All dates must be YYYY-MM-DD format!
-date: 2025-04-24
+date: 2025-05-08
 published: true
 labels:
   - Programming
-  - Coding
-  - Design
+  - Team Project
+  - Github
 ---
 <img src="../img/essays/puzzle.jpg">
 
