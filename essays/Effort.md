@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Effort Estimation"
+title: "Effort Estimation: ICS314 Group Project"
 # All dates must be YYYY-MM-DD format!
 date: 2025-05-08
 published: true
