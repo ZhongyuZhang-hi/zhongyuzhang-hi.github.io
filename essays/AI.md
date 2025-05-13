@@ -20,49 +20,69 @@ AI, or artificial intelligence, with its ability to generate code, explain compl
 Here are some examples where I have used AI when progressing ICS314.
 
 - **Experience WODs**  
+
   E18–20: Functional Programming (Parts 1–3)
+
   With the complexity and specificity of TypeScript’s functional programming syntax, I found it necessary to use AI tools like ChatGPT. I first tried approaching each problem by browsing through the list of array functions in TypeScript (such as .map, .filter, .reduce) and selecting one I thought would be helpful. I would then describe my idea and ask ChatGPT for help refining or implementing it. For example, in E19, when I wanted to calculate the total number of awards from the UH data set, I knew I had to use .reduce(). So I asked ChatGPT:
+
   *“Using reduce(): sum the awards of each UHData”* (and included the code snippet provided in the WOD).
+
   ChatGPT responded with a working solution using .reduce() to iterate through the data array and sum the values. This was very helpful, not because I couldn’t understand the concept, but because the syntax was tricky and I needed a reference to get it right. It still required trial and error, but ChatGPT helped guide me in the right direction quickly.
+
   E49–54: Digits
+  
   For these Experience WODs, I didn’t use AI. The instructions were detailed, and I felt I had gained enough confidence from earlier Experience and Practice WODs, especially those involving Next.js and databases. I decided not to rely on AI because I wanted to test and reinforce my understanding.
   
-- **In-class Practice WODs**  
+- **In-class Practice WODs**
+  
   For In-class Practice WODs, I did not use AI because I was usually working with classmates who could fill the same role as AI when it came to asking questions, brainstorming, or generating ideas. These WODs were collaborative and lower-pressure, so I saw them as valuable learning opportunities to develop my own understanding and problem-solving skills without relying on external tools. I intentionally used these sessions to practice thinking through problems and talking through solutions with others.
 
-- **In-class WODs**  
+- **In-class WODs**
+- 
   I used AI for almost all of the In-class WODs, except for the first couple, which were fairly straightforward. For the rest, my typical approach was to paste the entire WOD prompt into ChatGPT at the start of the session. As I worked through the WOD, I would reference ChatGPT whenever I ran into issues—whether it was a concept I didn’t fully understand or a syntax error I couldn’t figure out.
 
   For example, if I was trying to use .reduce() and wrote something like arr.reduce(a, b => a + b). I would type it directly to ChatGPT.
+
   *"arr.reduce(a, b => a + b)"*
+  
   ChatGPT would recognize any errors and help by correcting or refining my syntax and showing how to apply it properly to the dataset. This made the WODs much more manageable. AI was incredibly useful in this context, it helped me move past roadblocks quickly and ensured I could complete each In-class WOD on time with a working solution.
 
-- **Essays**     
+- **Essays**
+  
   I used ChatGPT for every essay in ICS 314, but I always made sure the core ideas and structure came from me. At the beginning of each assignment, I would paste the entire prompt into ChatGPT to ensure it understood the expectations and context. Then, I wrote the essay section by section based on my own thoughts and analysis.
 
   After completing each section, I would send it to ChatGPT along with the section title and a short explanation of what was expected. Such as:
+  
   *"Essays: Describe my process of using AI to help my essays"* (the section here)
+  
   ChatGPT would then help me revise it by improving clarity, grammar, spelling, and word choice. Its almost like I had a peer review of the essay as I wrote it, this process made my writing cleaner and more professional.
+  
   Additionally, when I got stuck, especially when I wasn’t sure how to expand a point or connect ideas, I would paste a rough paragraph into ChatGPT and ask for suggestions on how to develop it further. This approach helped me improve both the flow and depth of my essays without compromising originality.
   
 - **Final project**  
   For the final project, my use of AI was fairly limited because I was able to reuse a lot of components and code from previous assignments. I mainly used ChatGPT when I needed to implement something new that I hadn’t done before.
 
   One example was when I wanted to add a like button to a post. I provided ChatGPT with my data model and the relevant component, and asked,
+
   (All relevant information included)
   *“Add a like button to [component name].”*
+  
   It generated code that introduced new concepts I hadn’t used before, like useState, which was helpful for learning. However, the solution didn’t fully work because it didn’t handle updating the backend. I realized I needed to update the database, so I wrote a function to increment the like count and then asked ChatGPT how to use my custom function in the button logic. This back-and-forth helped me troubleshoot and finish the feature, but required my own reasoning to fully implement.
 
-- **Learning a concept/tutorial**  
+- **Learning a concept/tutorial**
+  
   I did not use AI for these activities. The tutorials and concept explanations were straightforward and designed to help me learn the material directly. I wanted to rely on my own understanding during these tasks to fully absorb the content and reinforce my foundational knowledge.
   
 - **Answering a question in class or Discord**
+
   I didn’t use AI to answer questions in class or on Discord. I assumed that others might already be using AI, and I felt that generating an AI response wouldn’t be helpful unless I took the time to research and understand the topic myself, which can be too much for quick responses. In these situations, I preferred to help based on my own experience and understanding, since the purpose of asking and answering questions is to learn through engagement.
   
 - **Asking or answering a smart question**
+
   This was similar to the previous section. If someone asked a smart question, it usually meant they had already put a lot of effort into it. If I didn’t know the answer, I typically wouldn’t respond rather than rely on AI to generate a reply. I felt it was more respectful and helpful to either respond from my own understanding or not respond at all, since smart questions deserve thoughtful, experience-based answers.
   
 - **Coding examples**
+
   AI support was especially helpful in the earlier TypeScript functional programming assignments, where live feedback wasn’t available like it was during webpage development. When exploring unfamiliar or complex array functions: such as .map(), .filter(), .reduce(). I would often use ChatGPT to clarify how they worked through quick, focused examples.
 
   For instance, if I thought a function like .reduce() might help with my logic, I would ask:
@@ -75,6 +95,7 @@ const numbers = [1, 2, 3, 4];
 const sum = numbers.reduce((acc, curr) => acc + curr, 0);
 console.log(sum); // 10
 ```
+
   Seeing working examples like this helped me better understand the structure and behavior of each function. It served as a reference I could build from when solving the actual problem at hand.
 
 - **Writing code**
