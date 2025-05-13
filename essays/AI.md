@@ -9,7 +9,7 @@ labels:
   - AI
 ---
 
-"Adapt or perish, now as ever, is nature's inexorable imperative" - H.G. Wells
+*"Adapt or perish, now as ever, is nature's inexorable imperative"* - H.G. Wells
 
 ## I. Introduction
 
@@ -22,7 +22,7 @@ Here are some examples where I have used AI when progressing ICS314.
 - **Experience WODs**  
   E18–20: Functional Programming (Parts 1–3)
   With the complexity and specificity of TypeScript’s functional programming syntax, I found it necessary to use AI tools like ChatGPT. I first tried approaching each problem by browsing through the list of array functions in TypeScript (such as .map, .filter, .reduce) and selecting one I thought would be helpful. I would then describe my idea and ask ChatGPT for help refining or implementing it. For example, in E19, when I wanted to calculate the total number of awards from the UH data set, I knew I had to use .reduce(). So I asked ChatGPT:
-  “Using reduce(): sum the awards of each UHData” (and included the code snippet provided in the WOD).
+  *“Using reduce(): sum the awards of each UHData”* (and included the code snippet provided in the WOD).
   ChatGPT responded with a working solution using .reduce() to iterate through the data array and sum the values. This was very helpful, not because I couldn’t understand the concept, but because the syntax was tricky and I needed a reference to get it right. It still required trial and error, but ChatGPT helped guide me in the right direction quickly.
   E49–54: Digits
   For these Experience WODs, I didn’t use AI. The instructions were detailed, and I felt I had gained enough confidence from earlier Experience and Practice WODs, especially those involving Next.js and databases. I decided not to rely on AI because I wanted to test and reinforce my understanding.
@@ -34,14 +34,14 @@ Here are some examples where I have used AI when progressing ICS314.
   I used AI for almost all of the In-class WODs, except for the first couple, which were fairly straightforward. For the rest, my typical approach was to paste the entire WOD prompt into ChatGPT at the start of the session. As I worked through the WOD, I would reference ChatGPT whenever I ran into issues—whether it was a concept I didn’t fully understand or a syntax error I couldn’t figure out.
 
   For example, if I was trying to use .reduce() and wrote something like arr.reduce(a, b => a + b). I would type it directly to ChatGPT.
-  "arr.reduce(a, b => a + b)"
+  *"arr.reduce(a, b => a + b)"*
   ChatGPT would recognize any errors and help by correcting or refining my syntax and showing how to apply it properly to the dataset. This made the WODs much more manageable. AI was incredibly useful in this context, it helped me move past roadblocks quickly and ensured I could complete each In-class WOD on time with a working solution.
 
 - **Essays**     
   I used ChatGPT for every essay in ICS 314, but I always made sure the core ideas and structure came from me. At the beginning of each assignment, I would paste the entire prompt into ChatGPT to ensure it understood the expectations and context. Then, I wrote the essay section by section based on my own thoughts and analysis.
 
   After completing each section, I would send it to ChatGPT along with the section title and a short explanation of what was expected. Such as:
-  "Essays: Describe my process of using AI to help my essays" (the section here)
+  *"Essays: Describe my process of using AI to help my essays"* (the section here)
   ChatGPT would then help me revise it by improving clarity, grammar, spelling, and word choice. Its almost like I had a peer review of the essay as I wrote it, this process made my writing cleaner and more professional.
   Additionally, when I got stuck, especially when I wasn’t sure how to expand a point or connect ideas, I would paste a rough paragraph into ChatGPT and ask for suggestions on how to develop it further. This approach helped me improve both the flow and depth of my essays without compromising originality.
   
@@ -50,7 +50,7 @@ Here are some examples where I have used AI when progressing ICS314.
 
   One example was when I wanted to add a like button to a post. I provided ChatGPT with my data model and the relevant component, and asked,
   (All relevant information included)
-  “Add a like button to [component name].”
+  *“Add a like button to [component name].”*
   It generated code that introduced new concepts I hadn’t used before, like useState, which was helpful for learning. However, the solution didn’t fully work because it didn’t handle updating the backend. I realized I needed to update the database, so I wrote a function to increment the like count and then asked ChatGPT how to use my custom function in the button logic. This back-and-forth helped me troubleshoot and finish the feature, but required my own reasoning to fully implement.
 
 - **Learning a concept/tutorial**  
@@ -66,7 +66,7 @@ Here are some examples where I have used AI when progressing ICS314.
   AI support was especially helpful in the earlier TypeScript functional programming assignments, where live feedback wasn’t available like it was during webpage development. When exploring unfamiliar or complex array functions: such as .map(), .filter(), .reduce(). I would often use ChatGPT to clarify how they worked through quick, focused examples.
 
   For instance, if I thought a function like .reduce() might help with my logic, I would ask:
-  “Give me an example using reduce().”
+  *“Give me an example using reduce().”*
 
   ChatGPT would typically respond with a concise and relevant snippet, like:
 
@@ -81,17 +81,17 @@ console.log(sum); // 10
   Similar to using AI for coding examples, I frequently relied on ChatGPT to help with actual code writing throughout ICS 314. The use cases were countless and ranged from implementing features to debugging problems.
 
   Sometimes, I gave specific prompts like:
-  “Using map, filter out all the data that has UH Manoa as its campus.”
+  *“Using map, filter out all the data that has UH Manoa as its campus.”*
 
   Or when I encountered errors, I would paste both the code and the error message with a prompt like:
-  “[pastes code and/or error] identify and fix.”
+  *“[pastes code and/or error] identify and fix.”*
 
   ChatGPT would often point out what was wrong, suggest corrections, or help restructure the logic. For example, when working with .filter() or .reduce(), if I wasn’t sure where to place a return statement or how to structure a callback function, ChatGPT helped refine my syntax and logic.
 
   Other times, I would give it partial or broken code and ask:
-  “Finish this function that sorts by number of awards.”
+  *“Finish this function that sorts by number of awards.”*
   or
-  “Why is this returning undefined?”
+  *“Why is this returning undefined?”*
 
   These interactions made writing code faster and less frustrating, especially when I was stuck on syntax or trying to apply a new concept. It didn’t replace learning, but it accelerated the feedback loop and helped me apply what I was learning more effectively.
 
