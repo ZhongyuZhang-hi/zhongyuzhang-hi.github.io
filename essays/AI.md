@@ -30,12 +30,16 @@ Here are some examples where I have used AI when progressing ICS314.
 - **In-class WODs**  
   I used AI for almost all of the In-class WODs, except for the first couple, which were fairly straightforward. For the rest, my typical approach was to paste the entire WOD prompt into ChatGPT at the start of the session. As I worked through the WOD, I would reference ChatGPT whenever I ran into issues—whether it was a concept I didn’t fully understand or a syntax error I couldn’t figure out.
 
-  For example, if I was trying to use .reduce() and wrote something like arr.reduce(a, b => a + b), ChatGPT would help by correcting or refining my syntax and showing how to apply it properly to the dataset. This made the WODs much more manageable. AI was incredibly useful in this context, it helped me move past roadblocks quickly and ensured I could complete each In-class WOD on time with a working solution.
+  For example, if I was trying to use .reduce() and wrote something like arr.reduce(a, b => a + b). I would type it directly to ChatGPT.
+  "arr.reduce(a, b => a + b)"
+  ChatGPT would recognize any errors and help by correcting or refining my syntax and showing how to apply it properly to the dataset. This made the WODs much more manageable. AI was incredibly useful in this context, it helped me move past roadblocks quickly and ensured I could complete each In-class WOD on time with a working solution.
 
 - **Essays**     
   I used ChatGPT for every essay in ICS 314, but I always made sure the core ideas and structure came from me. At the beginning of each assignment, I would paste the entire prompt into ChatGPT to ensure it understood the expectations and context. Then, I wrote the essay section by section based on my own thoughts and analysis.
 
-  After completing each section, I would send it to ChatGPT along with the section title and a short explanation of what was expected. ChatGPT would then help me revise it by improving clarity, grammar, spelling, and word choice. This process made my writing cleaner and more professional.
+  After completing each section, I would send it to ChatGPT along with the section title and a short explanation of what was expected. Such as:
+  "Essays: Describe my process of using AI to help my essays <the section here>"
+  ChatGPT would then help me revise it by improving clarity, grammar, spelling, and word choice. This process made my writing cleaner and more professional.
   
   This revision step made my writing cleaner and more professional. When I got stuck, especially when I wasn’t sure how to expand a point or connect ideas, I would paste a rough paragraph into ChatGPT and ask for suggestions on how to develop it further. This approach helped me improve both the flow and depth of my essays without compromising originality.
   
