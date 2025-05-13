@@ -7,7 +7,10 @@ date: 2025-05-12
 published: true
 labels:
   - AI
+  - Discussion
 ---
+
+<img src="https://www.openingmaster.com/images/Kitchen/stockfishAI1000.jpg">
 
 *"Adapt or perish, now as ever, is nature's inexorable imperative"* - H.G. Wells
 
