@@ -8,6 +8,9 @@ published: true
 labels:
   - AI
 ---
+
+"Adapt or perish, now as ever, is nature's inexorable imperative" - H.G. Wells
+
 ## I. Introduction
 
 AI, or artificial intelligence, with its ability to generate code, explain complex topics, and assist in debugging, has become a powerful and valuable tool in the learning process. In ICS 314, I engaged with AI tools such as ChatGPT and GitHub Copilot to support my development as a software engineer. These tools offer unique advantages, from helping me understand programming concepts to accelerating my problem-solving workflow. I believe AI can be a powerful learning tool, but only in the right hands. When used thoughtfully, it can enhance understanding, improve productivity, and foster deeper engagement with technical challenges. This essay reflects on my personal experience using AI throughout ICS 314, evaluating its role, benefits, and limitations within the course and beyond.
@@ -38,62 +41,70 @@ Here are some examples where I have used AI when progressing ICS314.
   I used ChatGPT for every essay in ICS 314, but I always made sure the core ideas and structure came from me. At the beginning of each assignment, I would paste the entire prompt into ChatGPT to ensure it understood the expectations and context. Then, I wrote the essay section by section based on my own thoughts and analysis.
 
   After completing each section, I would send it to ChatGPT along with the section title and a short explanation of what was expected. Such as:
-  "Essays: Describe my process of using AI to help my essays <the section here>"
-  ChatGPT would then help me revise it by improving clarity, grammar, spelling, and word choice. This process made my writing cleaner and more professional.
-  
-  This revision step made my writing cleaner and more professional. When I got stuck, especially when I wasn’t sure how to expand a point or connect ideas, I would paste a rough paragraph into ChatGPT and ask for suggestions on how to develop it further. This approach helped me improve both the flow and depth of my essays without compromising originality.
+  "Essays: Describe my process of using AI to help my essays" (the section here)
+  ChatGPT would then help me revise it by improving clarity, grammar, spelling, and word choice. Its almost like I had a peer review of the essay as I wrote it, this process made my writing cleaner and more professional.
+  Additionally, when I got stuck, especially when I wasn’t sure how to expand a point or connect ideas, I would paste a rough paragraph into ChatGPT and ask for suggestions on how to develop it further. This approach helped me improve both the flow and depth of my essays without compromising originality.
   
 - **Final project**  
   For the final project, my use of AI was fairly limited because I was able to reuse a lot of components and code from previous assignments. I mainly used ChatGPT when I needed to implement something new that I hadn’t done before.
 
-  One example was when I wanted to add a like button to a post. I provided ChatGPT with my data model and the relevant component, and asked, “Add a like button.” It generated code that introduced new concepts I hadn’t used before, like useState, which was helpful for learning. However, the solution didn’t fully work because it didn’t handle updating the backend. I realized I needed to update the database, so I wrote a function to increment the like count and then asked ChatGPT how to use my custom function in the button logic. This back-and-forth helped me troubleshoot and finish the feature, but required my own reasoning to fully implement.
+  One example was when I wanted to add a like button to a post. I provided ChatGPT with my data model and the relevant component, and asked,
+  (All relevant information included)
+  “Add a like button to [component name].”
+  It generated code that introduced new concepts I hadn’t used before, like useState, which was helpful for learning. However, the solution didn’t fully work because it didn’t handle updating the backend. I realized I needed to update the database, so I wrote a function to increment the like count and then asked ChatGPT how to use my custom function in the button logic. This back-and-forth helped me troubleshoot and finish the feature, but required my own reasoning to fully implement.
 
 - **Learning a concept/tutorial**  
-  I didn’t use AI to learn the basic concepts. When I studied the official tutorials for React, TypeScript, or HTML, I wanted to focus and learn from the source.
-  I thought that if I always used AI for this, I might not fully understand the fundamentals. So I read the docs and tried things by myself.
+  I did not use AI for these activities. The tutorials and concept explanations were straightforward and designed to help me learn the material directly. I wanted to rely on my own understanding during these tasks to fully absorb the content and reinforce my foundational knowledge.
   
 - **Answering a question in class or Discord**
-  I didn’t use AI to answer questions. I felt like if I could solve the problem, I should answer it myself. Also, if someone else asked a question, they could ask AI too—so I didn’t see the        point in using it for that.
+  I didn’t use AI to answer questions in class or on Discord. I assumed that others might already be using AI, and I felt that generating an AI response wouldn’t be helpful unless I took the time to research and understand the topic myself, which can be too much for quick responses. In these situations, I preferred to help based on my own experience and understanding, since the purpose of asking and answering questions is to learn through engagement.
   
 - **Asking or answering a smart question**
-  I didn’t use AI here either. I didn’t do this very often, but when I did, I tried to rely on what I had already learned.
-
-- **Coding examples**
-  I used AI often to find simple examples, especially when I forgot the syntax.
-  For example, I asked how to use a forEach loop or how to use some functional programming functions. It saved time and helped me review.
+  This was similar to the previous section. If someone asked a smart question, it usually meant they had already put a lot of effort into it. If I didn’t know the answer, I typically wouldn’t respond rather than rely on AI to generate a reply. I felt it was more respectful and helpful to either respond from my own understanding or not respond at all, since smart questions deserve thoughtful, experience-based answers.
   
 - **Coding examples**
-  Sometimes I copied code from AI but didn’t fully understand it. So I asked ChatGPT to explain things like:
+  AI support was especially helpful in the earlier TypeScript functional programming assignments, where live feedback wasn’t available like it was during webpage development. When exploring unfamiliar or complex array functions: such as .map(), .filter(), .reduce(). I would often use ChatGPT to clarify how they worked through quick, focused examples.
 
-    “What does query do in a Next.js Link?”
-    or
-    “What happens when useEffect has an empty dependency array?”
-    These answers helped me understand how data flows in React and how re-rendering works.
-  
+  For instance, if I thought a function like .reduce() might help with my logic, I would ask:
+  “Give me an example using reduce().”
+
+  ChatGPT would typically respond with a concise and relevant snippet, like:
+
+```
+const numbers = [1, 2, 3, 4];
+const sum = numbers.reduce((acc, curr) => acc + curr, 0);
+console.log(sum); // 10
+```
+  Seeing working examples like this helped me better understand the structure and behavior of each function. It served as a reference I could build from when solving the actual problem at hand.
+
 - **Writing code**
-  Yes, I used AI when writing code, especially small components or logic functions.
-  For example, I asked:
+  Similar to using AI for coding examples, I frequently relied on ChatGPT to help with actual code writing throughout ICS 314. The use cases were countless and ranged from implementing features to debugging problems.
 
-    “How do I create a simple modal in React-Bootstrap?”
-    AI gave me a basic example, and then I changed it to match our project’s style. I always tested the code and checked it before using it.
+  Sometimes, I gave specific prompts like:
+  “Using map, filter out all the data that has UH Manoa as its campus.”
+
+  Or when I encountered errors, I would paste both the code and the error message with a prompt like:
+  “[pastes code and/or error] identify and fix.”
+
+  ChatGPT would often point out what was wrong, suggest corrections, or help restructure the logic. For example, when working with .filter() or .reduce(), if I wasn’t sure where to place a return statement or how to structure a callback function, ChatGPT helped refine my syntax and logic.
+
+  Other times, I would give it partial or broken code and ask:
+  “Finish this function that sorts by number of awards.”
+  or
+  “Why is this returning undefined?”
+
+  These interactions made writing code faster and less frustrating, especially when I was stuck on syntax or trying to apply a new concept. It didn’t replace learning, but it accelerated the feedback loop and helped me apply what I was learning more effectively.
 
 - **Documenting code**
-  I didn’t use AI to write comments. I wanted to practice explaining my logic clearly.
-  In our final project, I wrote things like:
-  // This function opens the modal when the edit button is clicked
-  Writing my own comments helped me think more deeply about what the code was doing.
+  I did not use AI to document code. I wrote my own comments when documenting code because it was important for me to recognize and understand them. Using my own words helped reinforce what each part of the code was doing and made it easier to debug or revisit later. Even though AI could have written cleaner or more technical comments, I found it more effective to write them myself so the logic stayed fresh in my mind.
 
 - **Quality assurance**
-  This was one of the most helpful uses of AI for me. Many times, I got strange ESLint or runtime errors. I copied the error and asked ChatGPT:
-
-    “Why am I getting 'property undefined' when accessing an image in a club object?”
-    It explained that maybe the object wasn’t loaded yet, and I should check for null.
-    I also asked during Prisma errors:
-    “Why is my migration failing with a relation error?”
-    ChatGPT helped me figure out I had a mistake in my schema file.
+  I used AI intensively for quality assurance. Whenever I ran into something I didn’t like while reviewing my code live, or after I finished coding a section like a function or component, I would paste the entire snippet into ChatGPT. Since I had already provided it with the needed context earlier, it was able to help me efficiently.
+  Most of the time, ChatGPT didn’t require extra direction; it would automatically identify possible issues or suggest improvements. I would then review its feedback myself and either make follow-up questions or decide whether to apply the changes. This process helped catch potential bugs, improve code readability, and ensure I followed best practices.
 
 - **Other uses**
-  I don’t remember using AI for anything else. Mostly, I used it for debugging, writing code, and learning harder parts of React.
+  The above lists all the possible uses for AI that I had in ICS314. I have attempted to expand on each section to the best of my abilities and have no further experiences to add.
+  
 ## III. Impact on Learning and Understanding
 
 For me, one of the biggest advantages of using AI in ICS 314 was how it helped me move forward when I got stuck. When I ran into an obstacle or didn’t fully follow a topic, I could type my thoughts into ChatGPT, and it would help me make sense of what I was trying to do or carry me into the next step. Even if I didn’t understand everything perfectly, AI often helped me keep making progress without getting completely lost.
