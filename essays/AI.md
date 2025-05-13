@@ -28,37 +28,22 @@ Here are some examples where I have used AI when progressing ICS314.
   For In-class Practice WODs, I did not use AI because I was usually working with classmates who could fill the same role as AI when it came to asking questions, brainstorming, or generating ideas. These WODs were collaborative and lower-pressure, so I saw them as valuable learning opportunities to develop my own understanding and problem-solving skills without relying on external tools. I intentionally used these sessions to practice thinking through problems and talking through solutions with others.
 
 - **In-class WODs**  
-  I used AI in almost every in-class WOD. Since these were timed, I wanted to finish quickly and get a good score. AI helped me complete things faster.
+  I used AI for almost all of the In-class WODs, except for the first couple, which were fairly straightforward. For the rest, my typical approach was to paste the entire WOD prompt into ChatGPT at the start of the session. As I worked through the WOD, I would reference ChatGPT whenever I ran into issues—whether it was a concept I didn’t fully understand or a syntax error I couldn’t figure out.
 
-- **Essays**  
-  I used ChatGPT to help organize my ideas and improve my grammar.  
-  For example, before writing the ethics essay, I asked:  
-  > “Can you give me an outline for this essay?”  
-  After writing some paragraphs, I asked:  
-  > “Can you help me rewrite this to make it more clear?”  
-  Because English is my second language, AI helped me express myself better. But I always made sure the ideas and structure were my own.
+  For example, if I was trying to use .reduce() and wrote something like arr.reduce(a, b => a + b), ChatGPT would help by correcting or refining my syntax and showing how to apply it properly to the dataset. This made the WODs much more manageable. AI was incredibly useful in this context, it helped me move past roadblocks quickly and ensured I could complete each In-class WOD on time with a working solution.
 
+- **Essays**     
+  I used ChatGPT for every essay in ICS 314, but I always made sure the core ideas and structure came from me. At the beginning of each assignment, I would paste the entire prompt into ChatGPT to ensure it understood the expectations and context. Then, I wrote the essay section by section based on my own thoughts and analysis.
+
+  After completing each section, I would send it to ChatGPT along with the section title and a short explanation of what was expected. ChatGPT would then help me revise it by improving clarity, grammar, spelling, and word choice. This process made my writing cleaner and more professional.
+  
+  This revision step made my writing cleaner and more professional. When I got stuck, especially when I wasn’t sure how to expand a point or connect ideas, I would paste a rough paragraph into ChatGPT and ask for suggestions on how to develop it further. This approach helped me improve both the flow and depth of my essays without compromising originality.
+  
 - **Final project**  
-   I used AI a lot for the final project. Some things, like passing data between pages in Next.js using props and query parameters, were not fully taught in class.  
-  I asked ChatGPT:  
-  > “How do I pass props using Link in Next.js?”  
-  It helped me build code like this:
+  For the final project, my use of AI was fairly limited because I was able to reuse a lot of components and code from previous assignments. I mainly used ChatGPT when I needed to implement something new that I hadn’t done before.
 
-```
-<Link
-  href={
-    pathname: '/clubs/profile',
-    query: {
-      name: club.name,
-      description: club.description,
-      image: club.image,
-      creator: club.creator,
-      email: club.email,
-    },
-  }
->
-```
-  I also used AI when I had bugs in the React state or layout issues in the UI.
+  One example was when I wanted to add a like button to a post. I provided ChatGPT with my data model and the relevant component, and asked, “Add a like button.” It generated code that introduced new concepts I hadn’t used before, like useState, which was helpful for learning. However, the solution didn’t fully work because it didn’t handle updating the backend. I realized I needed to update the database, so I wrote a function to increment the like count and then asked ChatGPT how to use my custom function in the button logic. This back-and-forth helped me troubleshoot and finish the feature, but required my own reasoning to fully implement.
+
 - **Learning a concept/tutorial**  
   I didn’t use AI to learn the basic concepts. When I studied the official tutorials for React, TypeScript, or HTML, I wanted to focus and learn from the source.
   I thought that if I always used AI for this, I might not fully understand the fundamentals. So I read the docs and tried things by myself.
