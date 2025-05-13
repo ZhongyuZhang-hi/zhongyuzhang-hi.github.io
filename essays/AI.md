@@ -10,7 +10,7 @@ labels:
   - Discussion
 ---
 
-<img src="https://www.openingmaster.com/images/Kitchen/stockfishAI1000.jpg">
+<img src="https://www.openingmaster.com/images/Kitchen/stockfishAI1000.jpg" width="200">
 
 *"Adapt or perish, now as ever, is nature's inexorable imperative"* - H.G. Wells
 
