@@ -17,11 +17,13 @@ AI, or artificial intelligence, with its ability to generate code, explain compl
 Here are some examples where I have used AI when progressing ICS314.
 
 - **Experience WODs**  
-  In the beginning, for WODs like E18, I didn’t use AI at all. These tasks mostly involved basic JavaScript and simple logic, so I could do them by myself.  
-  But later, when we started learning functional programming, I got confused with some functions. For example, in one WOD, I wasn’t sure if I should use `_.filter` or `_.map`, or how to combine them. So I asked ChatGPT:  
-  > “How do I use the filter and map together in underscore?”  
-  It showed me an example and helped me understand how to use them together. Still, I didn’t always use AI because these WODs didn’t affect my grade, and sometimes I liked solving the problems on my own.
-
+  E18–20: Functional Programming (Parts 1–3)
+  With the complexity and specificity of TypeScript’s functional programming syntax, I found it necessary to use AI tools like ChatGPT. I first tried approaching each problem by browsing through the list of array functions in TypeScript (such as .map, .filter, .reduce) and selecting one I thought would be helpful. I would then describe my idea and ask ChatGPT for help refining or implementing it. For example, in E19, when I wanted to calculate the total number of awards from the UH data set, I knew I had to use .reduce(). So I asked ChatGPT:
+  “Using reduce(): sum the awards of each UHData” (and included the code snippet provided in the WOD).
+  ChatGPT responded with a working solution using .reduce() to iterate through the data array and sum the values. This was very helpful, not because I couldn’t understand the concept, but because the syntax was tricky and I needed a reference to get it right. It still required trial and error, but ChatGPT helped guide me in the right direction quickly.
+  E49–54: Digits (DB and Next.js Integration)
+  For these Experience WODs, I didn’t use AI. The instructions were detailed, and I felt I had gained enough confidence from earlier Experience and Practice WODs, especially those involving Next.js and databases. I decided not to rely on AI because I wanted to test and reinforce my understanding.
+  
 - **In-class Practice WODs**  
   At first, I didn’t use AI because the practice WODs were just basic JavaScript. But once we started using React components, I needed help more often.  
   For example, when I was making a webpage, I asked ChatGPT how to move the address next to the email inside the footer using CSS. It gave me a small code example and explained how to do it.  
