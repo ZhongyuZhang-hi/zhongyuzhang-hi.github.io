@@ -1,18 +1,17 @@
 ---
 layout: essay
 type: essay
-title: "The Importance of Coding Standards"
+title: "SoftEn2"
 # All dates must be YYYY-MM-DD format!
-date: 2025-01-30
+date: 2025-05-14
 published: true
 labels:
   - Programming
-  - Coding
-  - Eslint
+  - Reflection
 ---
-<img src="../img/essays/CodingStandard.jpg">
+<img src="https://media.istockphoto.com/id/693474546/photo/iceberg-floating-in-arctic-sea.jpg?s=612x612&w=0&k=20&c=7JISfbPbqqOXzkwtqBuGJZi5hI1m4xhZTtuQH4kJLIk=">
 
-*"Programming is the art of telling another human being what one wants the computer to do."* ― Donald Ervin Knuth
+*“The more you learn, the more you realize how much you don't know.” * – Albert Einstein.
 
 ## Why are Coding Standards Important
 
