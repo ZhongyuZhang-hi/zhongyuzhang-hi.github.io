@@ -18,13 +18,14 @@ labels:
 
 Code aren't just instructions to be read by computers, moreover, they are also meant to be read by humans. Coding standards are important because of that concept. Writing clean, structured, and standardized code ensures that it is not only functional but also readable, maintainable, and scalable. In collaborative projects, coding standards are important for developers, including your future self, to be able to understand, modify, and build off the code. This improves teamwork, reduces errors, and ensures long-term efficiency in software development.
 
-## Good vs Bad Code
+## Good vs. Bad Code
 
-The difference between good and bad code is more than just how a program runs, sure you can have more efficient algorithmns, but have clean and well written code is what a project could really build on.
+The difference between good and bad code isn’t just about whether a program runs. Even a program with an efficient algorithm can be hard to maintain if the code is disorganized. Good code is clean, well-structured, and consistent, making it easier to debug, update, and build upon. A project built on clean code is much more sustainable in the long run than one built with messy or inconsistent practices.
 
 ## Examples
 
-First, lets look at this program.
+Let’s look at a basic example:
+
 ```
 function f(n){
   if(n<0) return "error"
@@ -35,6 +36,8 @@ function f(n){
 This program violates multiple coding standards, making it difficult to read, understand, and maintain. It has poor and unclear naming standards for both functions and error types. The function name provides no indication of what the program does. While developers may still recognize its purpose in a simple program, poor naming conventions become a major issue in larger, more complex projects, where readability and maintainability are crucial.
 
 Additionally, just returning "error" is an inadequate approach to handling invalid input. A well-structured error-handling approach should be consistent, informative, and attention-grabbing, making it easier to identify and debug issues quickly. Providing meaningful error messages or implementing proper exception handling ensures that problems can be efficiently diagnosed and resolved.
+
+Poor naming and formatting may not seem like big issues in a small script, but they become serious obstacles in larger projects. Without consistent naming and formatting, teams struggle to debug issues and maintain clarity across the codebase.
 
 ## Example Continued
 
