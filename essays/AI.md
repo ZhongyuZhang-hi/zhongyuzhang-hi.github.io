@@ -4,7 +4,7 @@ type: essay
 title: "AI: The Future of Programming"
 # All dates must be YYYY-MM-DD format!
 date: 2025-05-12
-published: true
+published: false
 labels:
   - AI
   - Discussion
