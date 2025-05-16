@@ -10,10 +10,6 @@ labels:
   - Discussion
 ---
 
-<img src="https://www.openingmaster.com/images/Kitchen/stockfishAI1000.jpg" width="200">
-
-*"Adapt or perish, now as ever, is nature's inexorable imperative"* - H.G. Wells
-
 ## I. Introduction
 
 AI, or artificial intelligence, with its ability to generate code, explain complex topics, and assist in debugging, has become a powerful and valuable tool in the learning process. In ICS 314, I engaged with AI tools such as ChatGPT and GitHub Copilot to support my development as a software engineer. These tools offer unique advantages, from helping me understand programming concepts to accelerating my problem-solving workflow. I believe AI can be a powerful learning tool, but only in the right hands. When used thoughtfully, it can enhance understanding, improve productivity, and foster deeper engagement with technical challenges. This essay reflects on my personal experience using AI throughout ICS 314, evaluating its role, benefits, and limitations within the course and beyond.
