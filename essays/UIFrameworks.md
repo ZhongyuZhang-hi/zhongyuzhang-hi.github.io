@@ -4,7 +4,7 @@ type: essay
 title: "UI Frameworks: A Foundational Tool"
 # All dates must be YYYY-MM-DD format!
 date: 2025-01-30
-published: false
+published: true
 labels:
   - Programming
   - Coding
