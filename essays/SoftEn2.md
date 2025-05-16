@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "SoftEn2"
+title: "Lessons Beyond the Code: A Lookback at ICS314"
 # All dates must be YYYY-MM-DD format!
 date: 2025-05-14
 published: true
@@ -13,56 +13,58 @@ labels:
 
 *“The more you learn, the more you realize how much you don't know.” * – Albert Einstein.
 
-## Why are Coding Standards Important
+** Throughout the Course
 
-Code aren't just instructions to be read by computers, moreover, they are also meant to be read by humans. Coding standards are important because of that concept. Writing clean, structured, and standardized code ensures that it is not only functional but also readable, maintainable, and scalable. In collaborative projects, coding standards are important for developers, including your future self, to be able to understand, modify, and build off the code. This improves teamwork, reduces errors, and ensures long-term efficiency in software development.
+Throughout the ICS 314 course, I’ve gained many valuable skills and experiences in software engineering. Over the semester, we learned and worked with various coding frameworks such as HTML, CSS, Bootstrap, React, Next.js, and tools like pgAdmin and Vercel for database integration and deployment. But that’s just the tip of the iceberg, there are countless other frameworks and technologies out there waiting to be explored.
 
-## Good vs. Bad Code
+What stood out to me the most was the group project. For many of us, it was our first real experience working in a multi-person software development environment. Through it, I came to appreciate the importance of several core software engineering concepts, which I’ll explore in the following sections.
 
-The difference between good and bad code isn’t just about whether a program runs. Even a program with an efficient algorithm can be hard to maintain if the code is disorganized. Good code is clean, well-structured, and consistent, making it easier to debug, update, and build upon. A project built on clean code is much more sustainable in the long run than one built with messy or inconsistent practices.
+** The Final Project
 
-## Examples
+Over the course of this class, we explored many software engineering concepts, but I truly had the chance to apply and test them during the final group project. It was through this experience that I learned some of the most valuable lessons. Two concepts that stood out to me the most were design patterns and coding standards. I’ve grown especially fond of these because they play a crucial role in creating a smooth and effective collaborative workflow. In a team setting, having a shared understanding of structure and style can make development more consistent, maintainable, and enjoyable for everyone involved.
 
-Let’s look at a basic example:
+What I find most valuable about design patterns is their reusability and the learning benefits that come from working with them consistently. One pattern I became very familiar with was the AddStuff pattern from the Next.js application template. During our assignments, this pattern was refined into AddContact, and I was able to further adapt it into my own version, Posting, during the group project.
+
+The best part of using this pattern was how deeply I came to understand its structure and functionality. After working with it multiple times, making changes became almost trivial. It helped me create a simple, effective page that was easy to modify and build upon later. This consistency saved time and prevented bugs, which is exactly what design patterns are meant to do: provide tested, reliable solutions to common problems in a reusable format.
+
+In contrast, one of my group members created a different page built mostly using AI assistance instead of following our established design patterns. Here’s a snippet from that implementation:
+```
+const onSubmit = (data: ClubData) => {
+    startTransition(async () => {
+      await onAddClub(data); // ✅ 使用传入的 prop
+      handleClose();
+      reset();
+      router.refresh();
+    });
+  };
+...
+...
+
+<Modal.Body>
+          <Form onSubmit={handleSubmit(onSubmit)}>
+            <Form.Group className="mb-2">
+              <Form.Label>Creator Name</Form.Label>
+              <Form.Control {...register('creator')} required />
+            </Form.Group>
+...
 
 ```
-function f(n){
-  if(n<0) return "error"
-  if(n==0)return 1
-  else return n*f(n-1)}
-```
 
-This program violates multiple coding standards, making it difficult to read, understand, and maintain. It has poor and unclear naming standards for both functions and error types. The function name provides no indication of what the program does. While developers may still recognize its purpose in a simple program, poor naming conventions become a major issue in larger, more complex projects, where readability and maintainability are crucial.
+This approach didn’t incorporate the design patterns we had used throughout the rest of the semester, like centralized schema definitions and shared dbAction functions. As a result, all the logic was stuffed into the component files themselves, making the page harder to understand and much more difficult to maintain or modify, especially when the original author wasn’t available. This experience really emphasized to me how crucial consistent design patterns are for collaboration and maintainability in any software project.
 
-Additionally, just returning "error" is an inadequate approach to handling invalid input. A well-structured error-handling approach should be consistent, informative, and attention-grabbing, making it easier to identify and debug issues quickly. Providing meaningful error messages or implementing proper exception handling ensures that problems can be efficiently diagnosed and resolved.
+** Possible Improvements
 
-Poor naming and formatting may not seem like big issues in a small script, but they become serious obstacles in larger projects. Without consistent naming and formatting, teams struggle to debug issues and maintain clarity across the codebase.
+Although the main issue stemmed from a lack of consistent design patterns, I believe things could have still been improved if we had not neglected another important aspect: coding standards. During the project, we mostly treated coding standards as a chore, something we had to do just to make Vercel deployments work. But in hindsight, I see how much more potential coding standards had, and how we could have used them to our advantage.
 
-## Example Continued
+One major improvement would have been to establish our own coding standard at the very start of the project, something that expanded on ESLint by including team-wide expectations. For example, we could have adopted a consistent practice of documenting each function with clear comments that describe what it does, where it is called from, and where it navigates or links to. Similarly, each component could have included detailed notes about its structure, purpose, and any dependencies. Clear separation and documentation within components would have made it much easier to cross-check files, understand unfamiliar code, and maintain a shared understanding across the team.
 
-This following program is the above program that addresses some of these problems.
+Additionally, had we done this, the merge process, which was quite confusing at times, could have been significantly smoother. Each team member would have been able to understand any section of code at a glance, without having to dig through unfamiliar or undocumented logic. Coding standards aren't just about clean syntax, they're about communication and collaboration, which are critical in any team-based software development environment.
 
-```
-function factorial(n: number): number {
-    if (n < 0) {
-        throw new Error(
-            "ERROR:
-            Invalid input for function factorial()
-            Factorial is not defined for negative numbers.");
-    }
-    if (n === 0 || n === 1) {
-        return 1;
-    }
-    return n * factorial(n - 1);
-}
-```
+** Conclusion
 
-This improved version follows clean coding principles, making it more readable, maintainable, and scalable. The function's name, factorial, clearly describes the purpose of the function. It also includes clear error handling, as well as giving types to its inputs and outputs. Most importantly, the code is constructed to be structured, clear, and easily readable. Following these practices consistently allows functions to be easily understood and integrated, ensuring long term efficiency.
+ICS 314 has been much more than a course on web development, it’s been a hands-on journey into the principles of software engineering. Through our final group project, I gained first-hand experience with the real-world challenges and value of concepts like design patterns and coding standards. These aren’t just academic ideas; they directly influence the quality, maintainability, and collaboration potential of any software project.
 
-## Conclusion
+This course has laid a solid groundwork, and I feel more prepared to continue growing as a software engineer.
 
-Well written code follows clean coding principles and remains consistent with them. If you do something once make sure it remains consistent with the entirety of your code. During my current programming course, we reinforce this consistency using a program called Eslint, it is automated to be able to point out not only errors, but also mark improper coding practices that is able to be toggled on and off for many options, like including new lines and which quotation marks to use. It is very useful at keeping consistency between all of your developers by simply using an uniform setting. Adhering to these standards and following it uniformly allows projects to be built using sustainable and scalable code.
-
-- ChatGPT is used to assist in writing this essay only in word choice, spelling, and grammar. As well as assistance in writing the code snippets.
-
+- ChatGPT is used to assist in writing this essay only in word choice, spelling, and grammar.
 
