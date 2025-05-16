@@ -4,7 +4,7 @@ type: essay
 title: "A New Step Forward: My Journey into Software Engineering"
 # All dates must be YYYY-MM-DD format!
 date: 2025-01-22
-published: true
+published: false
 labels:
   - Software Engineering
 ---
