@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "TypeScript: Concise Code, Big Impact"
 date: 2025-01-22
-published: true
+published: false
 labels:
   - Software Engineering
   - Typescripts
