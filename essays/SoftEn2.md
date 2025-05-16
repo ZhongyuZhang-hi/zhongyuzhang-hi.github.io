@@ -31,7 +31,7 @@ In contrast, one of my group members created a different page built mostly using
 ```
 const onSubmit = (data: ClubData) => {
     startTransition(async () => {
-      await onAddClub(data); // ✅ 使用传入的 prop
+      await onAddClub(data);
       handleClose();
       reset();
       router.refresh();
