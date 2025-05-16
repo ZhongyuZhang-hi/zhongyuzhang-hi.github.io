@@ -13,13 +13,13 @@ labels:
 
 *“The more you learn, the more you realize how much you don't know.” * – Albert Einstein.
 
-** Throughout the Course
+## Throughout the Course
 
 Throughout the ICS 314 course, I’ve gained many valuable skills and experiences in software engineering. Over the semester, we learned and worked with various coding frameworks such as HTML, CSS, Bootstrap, React, Next.js, and tools like pgAdmin and Vercel for database integration and deployment. But that’s just the tip of the iceberg, there are countless other frameworks and technologies out there waiting to be explored.
 
 What stood out to me the most was the group project. For many of us, it was our first real experience working in a multi-person software development environment. Through it, I came to appreciate the importance of several core software engineering concepts, which I’ll explore in the following sections.
 
-** The Final Project
+## The Final Project
 
 Over the course of this class, we explored many software engineering concepts, but I truly had the chance to apply and test them during the final group project. It was through this experience that I learned some of the most valuable lessons. Two concepts that stood out to me the most were design patterns and coding standards. I’ve grown especially fond of these because they play a crucial role in creating a smooth and effective collaborative workflow. In a team setting, having a shared understanding of structure and style can make development more consistent, maintainable, and enjoyable for everyone involved.
 
@@ -52,7 +52,7 @@ const onSubmit = (data: ClubData) => {
 
 This approach didn’t incorporate the design patterns we had used throughout the rest of the semester, like centralized schema definitions and shared dbAction functions. As a result, all the logic was stuffed into the component files themselves, making the page harder to understand and much more difficult to maintain or modify, especially when the original author wasn’t available. This experience really emphasized to me how crucial consistent design patterns are for collaboration and maintainability in any software project.
 
-** Possible Improvements
+## Possible Improvements
 
 Although the main issue stemmed from a lack of consistent design patterns, I believe things could have still been improved if we had not neglected another important aspect: coding standards. During the project, we mostly treated coding standards as a chore, something we had to do just to make Vercel deployments work. But in hindsight, I see how much more potential coding standards had, and how we could have used them to our advantage.
 
@@ -60,7 +60,7 @@ One major improvement would have been to establish our own coding standard at th
 
 Additionally, had we done this, the merge process, which was quite confusing at times, could have been significantly smoother. Each team member would have been able to understand any section of code at a glance, without having to dig through unfamiliar or undocumented logic. Coding standards aren't just about clean syntax, they're about communication and collaboration, which are critical in any team-based software development environment.
 
-** Conclusion
+## Conclusion
 
 ICS 314 has been much more than a course on web development, it’s been a hands-on journey into the principles of software engineering. Through our final group project, I gained first-hand experience with the real-world challenges and value of concepts like design patterns and coding standards. These aren’t just academic ideas; they directly influence the quality, maintainability, and collaboration potential of any software project.
 
