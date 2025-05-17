@@ -19,15 +19,15 @@ summary: "The Group Project developed in ICS314: An online platform designed to 
 Manoa Connect TB is a centralized platform designed to help students at the University of Hawaiʻi at Mānoa discover and interact with campus clubs and organizations. Built using React, Next.js, and Vercel Database, the website provides features such as:
  - Posting Moments: Students can share updates and photos with the community
 
-<img class="img-fluid" src="../img/projectszhang/explore_posts.png" height="100">
+<img class="img-fluid" src="../img/projectszhang/explore_posts.png" height="100" width="250">
 
  - Explore and Join Clubs: Students can browse through active campus clubs and join the ones they are interested in
   
-<img class="img-fluid" src="../img/projectszhang/explore_clubs.png" height="100">
+<img class="img-fluid" src="../img/projectszhang/explore_clubs.png" height="100" width="250">
 
  - Schedule Activites: Clubs can create and manage events and RSVP for upcoming meetings
 
-<img class="img-fluid" src="../img/projectszhang/clubs.png" height="100">
+<img class="img-fluid" src="../img/projectszhang/clubs.png" height="100" width="250">
 
 
 ## My Contributions
