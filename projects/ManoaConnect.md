@@ -12,7 +12,7 @@ labels:
 summary: "The Group Project developed in ICS314: An online platform designed to centralize information, communication, and engagement for clubs and student organizations"
 ---
 
-<img class="img-fluid" src="../img/projectszhang/ManoaConnectCenterLogo.png" height="100">
+<img class="img-fluid" src="../img/projectszhang/ManoaConnectCenterLogo.png" height="200">
 
 ## Overview
 
