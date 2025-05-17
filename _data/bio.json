@@ -20,11 +20,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "C#" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "C#", "HTML", "Typescript" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Unity" ]
+      "keywords": [ "Unity", "React" ]
     }
   ],
   "education": [
